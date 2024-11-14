@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Home from '../pages/Home';
-// import Login from '../pages/Login';
+import Login from '../pages/Login';
 // import Register from '../pages/Register';
 // import Tasks from '../pages/Tasks';
 // import Projects from '../pages/Projects';
@@ -15,7 +15,7 @@ const AppRouter = () => {
             {/* <Sidebar /> */}
             <Routes>
                 {/* <Route path="/" element={<Home />} /> */}
-                {/* <Route path="/login" element={<Login />} /> */}
+                <Route path="/login" element={<Login />} />
                 {/* <Route path="/register" element={<Register />} /> */}
                 {/* <Route path="/tasks" element={<Tasks />} /> */}
                 {/* <Route path="/projects" element={<Projects />} /> */}
